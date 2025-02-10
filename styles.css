@@ -1,0 +1,58 @@
+
+h1 {
+    color: purple; 
+    font-size: 2em; 
+    text-align: center; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+    margin-bottom: 20px; 
+    text-indent: 50px;
+}
+
+h1:hover {
+    color: blue; 
+    transform: scale(1.1); 
+    transition: all 0.3s ease-in-out; 
+}
+
+
+h1.widget {
+    color: green; 
+    font-style: italic; 
+}
+
+
+h1 a {
+    color: blue; 
+    font-family: Arial, Courier, sans-serif; 
+    font-weight: bold; 
+    text-decoration: none; 
+}
+
+
+h1 a:hover {
+    color: darkblue; 
+    text-decoration: underline; 
+}
+
+h2{
+    color: blue; 
+    font-size: 2em; 
+    text-align: center; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+    margin-bottom: 20px; 
+}
+
+h2:hover {
+    color: darkblue; 
+    transform: scale(1.1); 
+    transition: all 0.3s ease-in-out; 
+}
+
+
+
+.search-input {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
